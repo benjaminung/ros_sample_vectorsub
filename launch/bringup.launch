@@ -1,0 +1,3 @@
+<launch>
+  <node name="sample_vectorsub" pkg="sample_vectorsub" type="sample_vectorsub" output="screen"/>
+</launch>
