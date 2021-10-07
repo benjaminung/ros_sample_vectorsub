@@ -24,7 +24,7 @@ int main(int argc, char** argv)
   ros::init(argc, argv, "sample_vectorsub");
   ros::NodeHandle nh;
   ros::Subscriber ros_sub;
-  ros_sub = nh.subscribe<geometry_msgs::Vector3>("ros_cfe_vectormsg", 100, msgCallback);
+  ros_sub = nh.subscribe<geometry_msgs::Vector3>("to_ros_vectormsg", 100, msgCallback);
   ros::spin();
   return 0;
 }
